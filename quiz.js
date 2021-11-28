@@ -6,9 +6,9 @@ var questions = [
         answer: "alerts"
     },
     {
-        title: "The condition in an if / else statement is enclosed within ____.",
-        choices: ["quotes", "curly brackets", "parentheses", "square brackets"],
-        answer: "parentheses"
+        title: "Which of the following is a Javascript Operator?",
+        choices: ["space bar", "?", "flux capacitor", "=="],
+        answer: "=="
     },
     {
         title: "Arrays in Javascript can be used to store ____.",
@@ -17,7 +17,7 @@ var questions = [
     },
     {
         title: "String values must be enclosed within ____ when being assigned to variables.",
-        choices: ["commas", "curly brackets", "quotes", "parenthesis"],
+        choices: ["commas", "curly brackets", "quotes", "parentheses"],
         answer: "quotes"
     },
     {
@@ -154,7 +154,7 @@ function allDone() {
 
     questionsDiv.appendChild(createLabel);
 
-    // input
+    // Input
     var createInput = document.createElement("input");
     createInput.setAttribute("type", "text");
     createInput.setAttribute("id", "initials");
@@ -162,7 +162,7 @@ function allDone() {
 
     questionsDiv.appendChild(createInput);
 
-    // submit
+    // Submit
     var createSubmit = document.createElement("button");
     createSubmit.setAttribute("type", "submit");
     createSubmit.setAttribute("id", "Submit");
